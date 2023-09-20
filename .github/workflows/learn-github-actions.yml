@@ -2,13 +2,13 @@ name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  Say Hello:
+  Say-Hello:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello Kiran"
       
 
-    Run Unit Tests:
+    Run-Unit-Tests:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v4
