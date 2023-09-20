@@ -5,7 +5,7 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello David"
+      - run: echo "Hello Kiran"
     #   - uses: actions/checkout@v4
     #   - uses: actions/setup-node@v3
     #     with:
